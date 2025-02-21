@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .error-code {
+            font-size: 100px;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        .message {
+            font-size: 24px;
+            color: #555;
+        }
+        a {
+            text-decoration: none;
+            color: #3498db;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="error-code">404</div>
+        <div class="message">Oops! Page Not Found.</div>
+        <a href="/">Go Back to Home</a>
+    </div>
+
+    <%- include("includes/footer.ejs") %>  
+
+</body>
+</html>
