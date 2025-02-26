@@ -24,7 +24,7 @@ let getUser = () => {
 let connection = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "@abhaykumar81",
+  password: "password",
   database: "delta_app",
 });
 
