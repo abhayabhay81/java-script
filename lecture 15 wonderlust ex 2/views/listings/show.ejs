@@ -28,10 +28,10 @@
         </div>
 
         <div class="btns">
-          <a href="/listings/<%= listing._id %>/edit" class="btn mb-3 ml-3 mt-3">Edit This Listing</a>
+          <a href="/listings/<%= listing._id %>/edit" class="btn btn-danger mb-3 ml-3 mt-3">Edit</a>
           <br /><br />
           <form method="POST" action="/listings/<%=listing._id%>?_method=DELETE">
-            <button class=" btn m-3">Delete This Listing</button>
+            <button class=" btn btn-dark m-3">Delete</button>
           </form>
         </div><br>
       </div>
